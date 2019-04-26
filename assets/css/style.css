@@ -231,17 +231,19 @@ body{
   overflow: hidden;
 }
 .buttonHoverDiv{
-  transition: 0.2s;
+  transition: 0.4s;
   /* animation-timing-function: linear; */
   position: absolute;
   left: 0;
   top: 25%;
-  background: orange;
+  background: white;
   width: 2%;
   height: 50%;
 }
 
-.getStartedNowButton p{
+.buttonP{
+  transition: 1s;
+  color: white;
   position: relative;
   margin: 0;
 }
