@@ -227,7 +227,8 @@ body{
   margin-top: 5.286vw;
   margin-left: 8.541vw;
   /* box-shadow: 0px 0px 134px 5px rgba(255,115,250,1); */
-  box-shadow: 0px 0px 132px 10px rgba(128,108,154,0.7);
+  /* box-shadow: 0px 0px 132px 10px rgba(128,108,154,0.7); */
+  box-shadow: 0px 0px 68px 61px rgba(252,255,150,0.23);
   overflow: hidden;
 }
 .buttonHoverDiv{
