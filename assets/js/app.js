@@ -12,17 +12,20 @@ var buttonHoverDiv = document.getElementsByClassName('buttonHoverDiv')[0];
 
 
 getStartedNowButton.addEventListener('mouseenter',()=>{
-  buttonHoverDiv.style.height = '51%';
+  buttonHoverDiv.style.height = '100%';
+  buttonHoverDiv.style.top = '0%';
   setTimeout(function () {
-    buttonHoverDiv.style.top = "50%"
-  }, 150);
+    buttonHoverDiv.style.width = '100%';
+  }, 200);
 });
 
 getStartedNowButton.addEventListener('mouseleave',()=>{
-  buttonHoverDiv.style.top = "0%"
-  // buttonHoverDiv.style.height = '0%';
   setTimeout(function () {
-    buttonHoverDiv.style.height = '0%';
+    buttonHoverDiv.style.width = '2%';
+    setTimeout(function () {
+      buttonHoverDiv.style.height = '50%';
+      buttonHoverDiv.style.top = '25%';
+    }, 200);
   }, 150);
 });
 

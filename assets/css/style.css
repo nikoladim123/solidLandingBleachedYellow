@@ -235,15 +235,14 @@ body{
   /* animation-timing-function: linear; */
   position: absolute;
   left: 0;
-  top: 0;
+  top: 25%;
   background: orange;
-  width: 100%;
-  height: 0%;
+  width: 2%;
+  height: 50%;
 }
 
 .getStartedNowButton p{
   position: relative;
-
   margin: 0;
 }
 
